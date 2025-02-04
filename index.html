@@ -395,7 +395,10 @@
         something great together!
       </p>
 
-      <form class="max-w-2xl mx-auto" method="POST" netlify>
+      <form class="max-w-2xl mx-auto" name="contact" method="POST" netlify>
+        <!-- Form bot protection -->
+        <input type="hidden" name="form-name" value="contact" />
+
         <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
           <input
             class="flex flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
