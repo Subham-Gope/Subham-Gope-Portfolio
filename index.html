@@ -395,7 +395,18 @@
         something great together!
       </p>
 
-      <form class="max-w-2xl mx-auto" name="contact" method="POST" netlify>
+      <form
+        class="max-w-2xl mx-auto"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <!-- acces key authentication -->
+        <input
+          type="hidden"
+          name="access_key"
+          value="ceddb505-f241-4479-8804-338a28de2089"
+        />
+
         <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
           <input
             class="flex flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
@@ -419,6 +430,22 @@
           placeholder="Enter your message"
           required
         ></textarea>
+
+        <!-- spam protection -->
+        <input
+          type="checkbox"
+          name="botcheck"
+          class="hidden"
+          style="display: none"
+        />
+
+        <!-- submission redirect to home -->
+        <input
+          type="hidden"
+          name="redirect"
+          
+        />
+
         <button
           class="py-3 px-8 w-max flex items-center justify-center gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover"
           type="submit"
