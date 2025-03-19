@@ -11,16 +11,17 @@
 - **🔗 Netlify Deployment** – Deployed and hosted on **Netlify** for fast and reliable access.
 
 ## 🛠 Tech Stack  
-
 - **HTML**  
 - **Tailwind CSS**  
 - **JavaScript**  
 - **Netlify** (for deployment)
 
-## 🚀 Installation
+## 📬 Contact  
+If you have any questions or suggestions, feel free to reach out!  
 
-### **Steps to run the project locally:**
+📧 **Email**: your.email@example.com  
+🔗 **GitHub**: [YourGitHubProfile](https://github.com/yourusername)  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/subham-gope-portfolio.git
+---
+
+### ⭐ Feel free to contribute or star the repo if you like it! 🚀
